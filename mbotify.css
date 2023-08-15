@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    display: flex;
+}
+
+.left{
+    width: 23%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.top-left{
+    background-color: #0d0d0d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+}
+
+.top-left a{
+    text-decoration: none;
+    color: #fdfdfd;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.top-center{
+    background-color: #0d0d0d;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.bib{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h3, h4, h5, h6{
+    font-size: 14px;
+}
+
+.play{
+    background-color: #2d2d2d;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.left p{
+    font-size: 12px;
+    color: #fefefe;
+}
+
+.left button{
+    padding: 6px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+}
+
+.podcast{
+    background-color: #2d2d2d;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.top-bottom{
+    background-color: #0d0d0d;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right{
+    width: 77%;
+    background-color: #0d0d0d;
+    margin: 10px;
+    border-radius: 10px;
+}
+.header {
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+ul li button{
+    padding: 6px;
+    border-radius: 40px;
+    background-color: white;
+    border: none;
+}
+
+.musics .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.title h3{
+    font-size: 18px;
+}
+
+.playlist{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.music{
+    width: 18%;
+    background-color: #2d2d2d;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.music img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.music p {
+    font-size: 12px;
+}

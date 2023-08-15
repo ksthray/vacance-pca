@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body{
+    background-color: #0f0f0f;
+    color: white;
+
+}
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #0f0f0f;
+    z-index: 1000;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.left h2{
+    font-size: 16px;
+    color: aqua;
+}
+.center input{
+    width: 400px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px ;
+    background-color: transparent;
+}
+.center button{
+    padding: 10px;
+    width: 50px;
+    background-color: hsl(0, 0%, 18.82%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solide gray;
+}
+.center button i{
+    color: white;
+}
+.sidebare{
+    width: 20%;
+     background-color: #0f0f0f;
+    padding-top: 60px;
+    padding-left: 10px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.sidebare img{
+    width: 30px;
+    border-radius: 100px;
+}
+.sidebare ul{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+ul li:hover{
+    color: orange;
+}
+
+.contenu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.firtiv{
+    width: 80%;
+    margin-top: 90px;
+    padding: 10px;
+}
+
+.video {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cover{
+    width: 32%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.cover img{
+    width: 100%;;
+    border-radius: 10px;
+}
+
+.cover p{
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
